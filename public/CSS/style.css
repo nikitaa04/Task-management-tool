@@ -1,5 +1,6 @@
 body {
-    background-color: #53B8BB;
+ 
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSam5FQGyeYMcWe-XU7ZYqvwEVQGPSkMLoISw&usqp=CAU");
    
 }
 
@@ -7,9 +8,9 @@ body {
    position: absolute;
     top: 6px;
     right: 20px;   
-    border: 2px solid #476072;
-    color: #476072
-
+     border-radius: 10px;
+    color: #476072;
+    font-family : 'Permanent Marker', cursive;
 }
 
 
@@ -25,6 +26,7 @@ body {
     padding-bottom: 0px;
     padding-top: 100px;
     padding-left: 500px;
+    margin-left: 40px;
 }
 
 
@@ -35,12 +37,28 @@ body {
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 3px;
     padding-top: 30px;
+   
 }
 
 
 
 h4{
-    color: gray;
+    color: grey;
+}
+
+h1{
+    text-align: center;
+    margin-right: 130px;
+    margin-top: 40px;
+    font-family: 'Permanent Marker', cursive;
+    color:#9ADCFF;
+    padding: 4px;
+
+
+}
+
+.heading{
+    background-color: white;
 }
 
 
@@ -53,10 +71,12 @@ h4{
     padding-bottom: 0px;
     font-size:small;
    
+   
 }
 
 .list-group-item.Third{
     font-size:small;
+   
 }
 
 .list-group-item.Fourth{
@@ -64,6 +84,7 @@ h4{
     padding-left: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
+    
 
 }
 
@@ -75,7 +96,7 @@ h4{
     padding-top: 8px;
     padding-bottom: 8px;
     font-size:small;
-
+    font-family: 'Permanent Marker', cursive;
 }
 
 
